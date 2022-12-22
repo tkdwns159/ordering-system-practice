@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8842b162-70e2-4a6d-b93d-4a9b26ed909e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/entity/AggregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/event/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/event/publisher/DomainEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/exception/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/BaseId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/CustomerId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/OrderApprovalStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/OrderId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-domain/src/main/java/com/sangjun/common/domain/valueobject/RestaurantId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-application/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-container/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/OrderApplicationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/OrderCreateCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/OrderTrackCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/create/CreateOrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/create/CreateOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/create/OrderAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/create/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/message/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/message/RestaurantApprovalResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/track/TrackOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/dto/track/TrackOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/mapper/OrderDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/input/message/listener/payment/PaymentResponseMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/input/message/listener/restaurant/RestaurantApprovalMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/input/service/OrderApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/message/publisher/payment/OrderCancelledPaymentRequestMessagePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/message/publisher/payment/OrderCreatedPaymentRequestMessagePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/message/publisher/restaurant/OrderPaidRestaurantRequestMessagePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/sangjun/order/domain/service/ports/output/repository/RestaurantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/OrderDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/OrderDomainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/entity/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/event/OrderCancelledEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/event/OrderCreateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/event/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/event/OrderPaidEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/exception/OrderDomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/valueobject/OrderItemId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/valueobject/StreetAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/sangjun/order/domain/valueobject/TrackingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-messaging/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/order-service/order-domain">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-service/order-domain">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-service/order-application">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-dataaccess">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="food-ordering-system" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="order-domain" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="order-domain" type="2d1252cf:ModuleNode" />
+                <item name="order-application-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="order-domain" type="2d1252cf:ModuleNode" />
+                <item name="order-application-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="order-domain" type="2d1252cf:ModuleNode" />
+                <item name="order-application-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-ordering-system" type="f1a62948:ProjectNode" />
+                <item name="order-service" type="2d1252cf:ModuleNode" />
+                <item name="order-domain" type="2d1252cf:ModuleNode" />
+                <item name="order-domain-core" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IuXFhkYs43EvQssuuBT8pKM6Fm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.26099706",
+    "project.structure.side.proportion": "0.12515646",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "spring.configuration.checksum": "2522bbe2ca723574b43243c5524340af"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sangjun.order.domain.service.ports.input.service" />
+      <recent name="com.sangjun.common.domain.valueobject" />
+      <recent name="com.sangjun.common.domain.event" />
+      <recent name="com.sangjun.order.domain.service.dto.create" />
+      <recent name="com.sangjun.order.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/common-domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sangjun.system.domain.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.food-ordering-system [:order-service:clean]">
+    <configuration name="food-ordering-system [:order-service:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":order-service:clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="food-ordering-system [:order-service:dependentComponents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":order-service:dependentComponents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="food-ordering-system [:order-service:graphModules]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":order-service:graphModules" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="food-ordering-system [graphModules]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="graphModules" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="food-ordering-system:order-service [graphModules]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/order-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="graphModules" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.food-ordering-system [:order-service:clean]" />
+        <item itemvalue="Gradle.food-ordering-system [:order-service:graphModules]" />
+        <item itemvalue="Gradle.food-ordering-system [:order-service:dependentComponents]" />
+        <item itemvalue="Gradle.food-ordering-system:order-service [graphModules]" />
+        <item itemvalue="Gradle.food-ordering-system [graphModules]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8842b162-70e2-4a6d-b93d-4a9b26ed909e" name="Changes" comment="" />
+      <created>1671032339588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671032339588</updated>
+      <workItem from="1671032341042" duration="6252000" />
+      <workItem from="1671069957699" duration="4000" />
+      <workItem from="1671123190638" duration="1414000" />
+      <workItem from="1671125717697" duration="2955000" />
+      <workItem from="1671128759308" duration="318000" />
+      <workItem from="1671129101629" duration="409000" />
+      <workItem from="1671204829916" duration="3174000" />
+      <workItem from="1671245892977" duration="1860000" />
+      <workItem from="1671250003402" duration="248000" />
+      <workItem from="1671470262563" duration="835000" />
+      <workItem from="1671600358809" duration="212000" />
+      <workItem from="1671600911401" duration="472000" />
+      <workItem from="1671601466998" duration="146000" />
+      <workItem from="1671601667870" duration="1050000" />
+      <workItem from="1671602781017" duration="107000" />
+      <workItem from="1671602982366" duration="417000" />
+      <workItem from="1671603417479" duration="243000" />
+      <workItem from="1671603738382" duration="1397000" />
+      <workItem from="1671605276667" duration="179000" />
+      <workItem from="1671605536184" duration="13709000" />
+      <workItem from="1671673712848" duration="314000" />
+      <workItem from="1671697151449" duration="984000" />
+      <workItem from="1671698380826" duration="5022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
