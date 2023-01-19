@@ -25,6 +25,20 @@
                   <project path="$PROJECT_DIR$/order-service/order-messaging" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/platforms" name="platforms">
+                <projects>
+                  <project path="$PROJECT_DIR$/platforms" />
+                  <project path="$PROJECT_DIR$/platforms/plugin-platform" />
+                  <project path="$PROJECT_DIR$/platforms/product-platform" />
+                  <project path="$PROJECT_DIR$/platforms/test-platform" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/commons" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -33,6 +47,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/commons" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/common/common-domain" />
             <option value="$PROJECT_DIR$/order-service" />
@@ -43,6 +59,10 @@
             <option value="$PROJECT_DIR$/order-service/order-domain/order-application-service" />
             <option value="$PROJECT_DIR$/order-service/order-domain/order-domain-core" />
             <option value="$PROJECT_DIR$/order-service/order-messaging" />
+            <option value="$PROJECT_DIR$/platforms" />
+            <option value="$PROJECT_DIR$/platforms/plugin-platform" />
+            <option value="$PROJECT_DIR$/platforms/product-platform" />
+            <option value="$PROJECT_DIR$/platforms/test-platform" />
           </set>
         </option>
       </GradleProjectSettings>

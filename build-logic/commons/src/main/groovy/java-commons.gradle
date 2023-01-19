@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation platform('com.sangjun.platform:product-platform')
+    testImplementation platform('com.sangjun.platform:test-platform')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+tasks.named("test") {
+    useJUnitPlatform()
+}

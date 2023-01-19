@@ -1,2 +1,5 @@
 includeBuild('common')
 includeBuild('order-service')
+includeBuild('platforms')
+includeBuild('build-logic')
+

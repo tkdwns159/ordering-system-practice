@@ -1,8 +1,6 @@
 plugins {
-    id 'java'
+    id 'java-commons'
     id 'io.freefair.lombok'
-    id 'org.springframework.boot' version '2.7.6'
-    id 'io.spring.dependency-management' version '1.1.0'
 }
 
 group 'com.sangjun.order.domain'
@@ -10,11 +8,9 @@ group 'com.sangjun.order.domain'
 dependencies {
     implementation project(':order-domain:order-domain-core')
     implementation("com.sangjun.common:common-domain")
+
     implementation('org.springframework.boot:spring-boot-starter-validation')
     implementation('org.springframework:spring-tx')
-
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
 test {

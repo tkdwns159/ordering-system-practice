@@ -1,16 +1,9 @@
 plugins {
-    id 'java'
+    id 'java-commons'
 }
 
 version '1.0-SNAPSHOT'
 
 dependencies {
     implementation project(':order-domain:order-application-service')
-
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
 }

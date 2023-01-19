@@ -2,6 +2,8 @@ pluginManagement {
     plugins {
         id "io.freefair.lombok" version "6.6.1"
     }
+
+    includeBuild("../build-logic")
 }
 
 dependencyResolutionManagement {
@@ -11,6 +13,7 @@ dependencyResolutionManagement {
 }
 
 includeBuild("../common")
+includeBuild("../platforms")
 
 rootProject.name ='order-service'
 
